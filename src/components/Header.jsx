@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { APP_NAME } from '../config';
+import logo from '../assets/images/logo.jpg'
 
 export default function Header() {
   const location = useLocation();
@@ -10,9 +11,23 @@ export default function Header() {
   return (
     <header style={styles.header}>
       <div className="container" style={styles.bar}>
-        <Link to="/" style={styles.logo} onClick={() => setOpen(false)}>
+        {/* <Link to="/" style={styles.logo} onClick={() => setOpen(false)}>
           <span style={styles.logoMark}>◆</span> {APP_NAME}
-        </Link>
+        </Link> */}
+        <Link to="/" style={{}} onClick={() => setOpen(false)}>
+<img
+  src={logo}
+  alt="Ya Shams Enterprise"
+  style={{
+    height: '65px',
+    width: 'auto',
+    objectFit: 'contain',
+    display: 'block',
+    borderRadius: '4px',      // optional, if the logo has a background/edges
+    cursor: 'pointer',        // if clicking it navigates home
+  }}
+/>
+</Link>
 
         <button
           style={styles.menuBtn}

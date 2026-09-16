@@ -8,4 +8,4 @@ export const APPS_SCRIPT_URL = ''; // e.g. 'https://script.google.com/macros/s/A
 
 export const DEMO_MODE = !APPS_SCRIPT_URL;
 
-export const APP_NAME = 'Wayfarer';
+export const APP_NAME = 'Ya Shams Enterprise';
