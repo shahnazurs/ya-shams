@@ -9,3 +9,7 @@ export const APPS_SCRIPT_URL = ''; // e.g. 'https://script.google.com/macros/s/A
 export const DEMO_MODE = !APPS_SCRIPT_URL;
 
 export const APP_NAME = 'Ya Shams Enterprise';
+
+export const CONTACT_NUMBER = "+60 17 4779786"
+
+export const FACEBOOK_URL = "https://m.facebook.com/Limousine-services-2023566251245863/"
