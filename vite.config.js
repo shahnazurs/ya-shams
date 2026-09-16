@@ -7,5 +7,5 @@ export default defineConfig({
   // Relative base so built asset paths work whether the site is served from
   // a domain root (Vercel/Netlify) or a GitHub Pages repo subpath
   // (username.github.io/repo-name/).
-  base: './',
+  base: '/ya-shams/',
 })
